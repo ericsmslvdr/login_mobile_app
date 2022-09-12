@@ -6,5 +6,5 @@ Login Mobile App
 
 &#62;flutter pub get 
 
-<p>Design inspired from:<p> 
+<p>Design inspiration comes from:<p> 
 https://www.figma.com/community/file/991603863953987803
