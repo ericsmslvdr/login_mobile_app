@@ -8,9 +8,9 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Content(
       imgPath: 'images/deal.png',
-      title: 'Easy to Transact,\nwith Jumot',
+      title: 'Easy to Transact,\nwith NUBShop',
       subTitle:
-          'Buying and selling can be done by COD so you can\n check the items you are going to buy',
+          'Buying and paying can be done through Cash on Delivery,\n e-Wallet, Over-the-Counter, or any other mode of payment\n you prefer. Your convenience is our priority',
       icon: Icons.swipe_outlined,
     );
   }

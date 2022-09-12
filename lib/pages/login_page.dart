@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_mobile_app/pages/register_page.dart';
+import 'package:login_mobile_app/widgets/custom_textfield.dart';
 import 'package:login_mobile_app/widgets/footer.dart';
 
 class LoginPage extends StatelessWidget {
@@ -20,24 +21,11 @@ class LoginPage extends StatelessWidget {
               'images/deal_2.png',
             ),
             const SizedBox(height: 30),
-            const TextField(
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 15),
-                border: OutlineInputBorder(),
-                hintText: 'Email',
-              ),
+            CustomTextField(hintText: 'Email'),
+            CustomTextField(
+              hintText: 'Password',
+              sufficIcon: Icons.remove_red_eye_outlined,
             ),
-            const SizedBox(height: 20),
-            const TextField(
-              smartDashesType: SmartDashesType.disabled,
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 15),
-                border: OutlineInputBorder(),
-                hintText: 'Password',
-                suffixIcon: Icon(Icons.remove_red_eye_outlined),
-              ),
-            ),
-            const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: const [

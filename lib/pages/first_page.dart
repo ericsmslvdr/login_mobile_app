@@ -8,9 +8,9 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Content(
       imgPath: 'images/bike.png',
-      title: 'Easy to Transact,\nwith Jumot',
+      title: 'Easy to Transact,\nwith NUBShop',
       subTitle:
-          'The buying and selling business reaches all\n regions in Indonesia',
+          'The buying and selling NUB merchandise reaches all\n regions in Philippines',
       icon: Icons.swipe_right_outlined,
     );
   }

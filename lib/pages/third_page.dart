@@ -20,7 +20,7 @@ class ThirdPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 40),
                 const Text(
-                  'Easy to Transact,\nwith Jumot',
+                  'Easy to Transact,\nwith NUBShop',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 21,
@@ -29,7 +29,7 @@ class ThirdPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 20),
                 const Text(
-                  'Buy a vehicle according to your interests\n and with best negotiated price',
+                  'Buy NUB Merchandise according to your\n interests and with best negotiated price',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 15,

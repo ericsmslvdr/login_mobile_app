@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login_mobile_app/pages/done_register.dart';
 import 'package:login_mobile_app/pages/login_page.dart';
+import 'package:login_mobile_app/widgets/custom_textfield.dart';
 import 'package:login_mobile_app/widgets/footer.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -14,51 +15,19 @@ class RegisterPage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 45),
         child: ListView(
           children: [
-            Image.asset(
-              'images/girl_in_bike.png',
+            Image.asset('images/girl_in_bike.png'),
+            CustomTextField(hintText: 'Full Name'),
+            CustomTextField(hintText: 'Email'),
+            CustomTextField(hintText: 'Phone Number'),
+            CustomTextField(
+              hintText: 'Password',
+              sufficIcon: Icons.remove_red_eye_outlined,
             ),
-            const TextField(
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 15),
-                border: OutlineInputBorder(),
-                hintText: 'Full Name',
-              ),
+            CustomTextField(
+              hintText: 'Confirm Password',
+              sufficIcon: Icons.remove_red_eye_outlined,
             ),
-            const SizedBox(height: 20),
-            const TextField(
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 15),
-                border: OutlineInputBorder(),
-                hintText: 'Email',
-              ),
-            ),
-            const SizedBox(height: 20),
-            const TextField(
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 15),
-                border: OutlineInputBorder(),
-                hintText: 'Phone Number',
-              ),
-            ),
-            const SizedBox(height: 20),
-            const TextField(
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 15),
-                border: OutlineInputBorder(),
-                hintText: 'Password',
-                suffixIcon: Icon(Icons.remove_red_eye_outlined),
-              ),
-            ),
-            const SizedBox(height: 20),
-            const TextField(
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 15),
-                border: OutlineInputBorder(),
-                hintText: 'Confirm Password',
-                suffixIcon: Icon(Icons.remove_red_eye_outlined),
-              ),
-            ),
-            const SizedBox(height: 50),
+            const SizedBox(height: 30),
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
