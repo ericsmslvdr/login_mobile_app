@@ -49,7 +49,6 @@ class Content extends StatelessWidget {
           width: double.infinity,
           child: Padding(
             padding: const EdgeInsets.symmetric(
-              horizontal: 30,
               vertical: 25,
             ),
             child: Icon(icon),
