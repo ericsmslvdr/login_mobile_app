@@ -10,7 +10,7 @@ class SecondPage extends StatelessWidget {
       imgPath: 'images/deal.png',
       title: 'Easy to Transact,\nwith Jumot',
       subTitle:
-          'Buying and selling can be done by COD so you can\n get check the items we are going to buy',
+          'Buying and selling can be done by COD so you can\n check the items you are going to buy',
       icon: Icons.swipe_outlined,
     );
   }
