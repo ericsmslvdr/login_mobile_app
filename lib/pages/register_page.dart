@@ -51,7 +51,6 @@ class RegisterPage extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const TextField(
-              smartDashesType: SmartDashesType.disabled,
               decoration: InputDecoration(
                 contentPadding: EdgeInsets.only(left: 15),
                 border: OutlineInputBorder(),
