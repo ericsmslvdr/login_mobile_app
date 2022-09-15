@@ -15,7 +15,10 @@ class RegisterPage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 45),
         child: ListView(
           children: [
-            Image.asset('images/girl_in_bike.png'),
+            Image.asset(
+              'images/REDT.png',
+              height: 190,
+            ),
             CustomTextField(hintText: 'Full Name'),
             CustomTextField(hintText: 'Email'),
             CustomTextField(hintText: 'Phone Number'),

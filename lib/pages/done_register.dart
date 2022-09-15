@@ -18,7 +18,8 @@ class DoneRegister extends StatelessWidget {
                 children: [
                   const SizedBox(height: 95),
                   Image.asset(
-                    'images/done_register.png',
+                    'images/mascot1.png',
+                    height: 250,
                   ),
                   const SizedBox(height: 20),
                   const Text(

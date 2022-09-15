@@ -18,7 +18,8 @@ class LoginPage extends StatelessWidget {
           children: [
             const SizedBox(height: 95),
             Image.asset(
-              'images/deal_2.png',
+              'images/nu_literates.jpg',
+              height: 250,
             ),
             const SizedBox(height: 30),
             CustomTextField(hintText: 'Email'),

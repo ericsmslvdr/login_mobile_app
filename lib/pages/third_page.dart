@@ -16,11 +16,11 @@ class ThirdPage extends StatelessWidget {
               children: [
                 const SizedBox(height: 95),
                 Image.asset(
-                  'images/bike_only.png',
+                  'images/deal_2.png',
                 ),
                 const SizedBox(height: 40),
                 const Text(
-                  'Easy to Transact,\nwith NUBShop',
+                  'Easy to Transact,\nwith LitShop',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 21,
